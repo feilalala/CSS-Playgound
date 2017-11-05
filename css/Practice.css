@@ -1,0 +1,129 @@
+/* css only icons */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 20px;
+  border: 1px solid #000;
+  border-radius: 100%;
+}
+.icon:before,
+.icon:after{
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+
+.icon1:before,
+.icon1:after{
+  content: "";
+  background-color: #000;
+  position: absolute;
+  height: 2px;
+  width: 25px;
+  top: 50%;
+  left: 25%;
+  transform: rotate(45deg);
+}
+
+.icon1:after {
+  transform: rotate(-45deg);
+}
+
+.icon2:before {
+  height: 2px;
+  width: 25px;
+  top: 50%;
+  right: 17%;
+  transform: rotate(-45deg)
+}
+
+.icon2:after{
+  height: 2px;
+  width: 12px;
+  top: 58%;
+  left: 21%;
+  transform: rotate(45deg)
+}
+
+.icon3:before,
+.icon3:after{
+  height: 2px;
+  width: 12px;
+  top: 50%;
+  left: 30%;
+  transform: rotate(45deg)
+}
+.icon3:after{
+  left: 45%;
+  transform: rotate(-45deg)
+}
+
+.icon4:before,
+.icon4:after{
+  height: 2px;
+  width: 20px;
+  top: 50%;
+  left: 30%;
+}
+.icon4:after{
+  transform: rotate(90deg);
+}
+
+.icon5:before{
+  height: 2px;
+  width: 20px;
+  top: 50%;
+  left: 30%;
+}
+
+.icon5:before{
+  top: 30%;
+  left: 25%;
+  height: 12px;
+  width: 12px;
+  border: 2px solid #000;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.icon5:after{
+  height: 15px;
+  width: 2px;
+  top: 50%;
+  left: 59%;
+  transform: rotate(-45deg);
+}
+
+.icon6:before{
+  height: 2px;
+  width: 20px;
+  top: 50%;
+  left: 30%;
+}
+
+.icon7:before{
+  height: 7px;
+  width: 7px;
+  border-radius: 100%;
+  color: #000;
+  top: 50%;
+  left: 22%;
+  transform: translateY(-50%);
+  box-shadow: 10px 0 0  #000, 20px 0 0;
+}
+
+/* 满幅背景定宽内容 */

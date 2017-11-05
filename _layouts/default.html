@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>The CSS Playground of Zrlong </h1>
+  </header>
+  <main>
+    <section class="archive-post-list">
+       {% for post in site.posts %}
+           {% assign tag = post.tags %}
+           {% if tag != myTag %}
+             {% unless forloop.first %}</ul>{% endunless %}
+             <h3>{{ tag }}</h3>
+             <ul>
+             {% assign myTag = tag %}
+           {% endif %}
+           <li>
+             <a href="{{ post.url }}">
+               <h4>{{ post.title }}</h4>
+               <img src="/Images/{{ post.screnshot }}.png" alt="">
+             </a>
+           </li>
+           {% if forloop.last %}</ul>{% endif %}
+       {% endfor %}
+    </section>
+  </main>
+</body>
+</html>

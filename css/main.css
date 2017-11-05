@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  line-height: 1.4;
+}
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+h1 {
+  font-size: 1.6em;
+  line-height: 1.2;
+  padding: 1em 3em 1em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  max-width: 300px;
+  text-align: center;
+}
+
+main{
+  margin: 100px 300px 0 20px;
+
+}
+.archive-post-list ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+  grid-gap: 2rem;
+  padding-left: 0;
+}
+.archive-post-list ul li {
+  display: inline-block;
+  list-style: none;
+}
+.archive-post-list ul li a{
+  text-decoration: none;
+  color: #000;
+}
+.archive-post-list ul li img{
+  max-width: 100%;
+  display: block;
+  border: 4px solid #000;
+  background-color: #fff;
+  background: -webkit-linear-gradient(top, white 16px, black 16px);
+  padding-top: 20px;
+}
