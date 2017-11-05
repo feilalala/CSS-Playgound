@@ -22,7 +22,7 @@
              {% assign myTag = tag %}
            {% endif %}
            <li>
-             <a href="{{ post.url }}">
+             <a href="{{ post.url | site.baseurl }}">
                <h4>{{ post.title }}</h4>
                <img src="/Images/{{ post.screnshot }}.png" alt="">
              </a>
