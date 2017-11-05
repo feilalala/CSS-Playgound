@@ -24,7 +24,7 @@
            <li>
              <a href="{{ post.url | prepend:site.baseurl }}">
                <h4>{{ post.title }}</h4>
-               <img src="/Images{{ post.screnshot | prepend:site.baseurl }}.png" alt="">
+               <img src="{{ site.baseurl }}/Images/{{ post.screnshot }}.png" alt="">
              </a>
            </li>
            {% if forloop.last %}</ul>{% endif %}
