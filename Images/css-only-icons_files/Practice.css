@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html
+  lang="zh"
+  class="dark-gray">
+  <head>
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '');
+      </script>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="application/atom+xml" rel="alternate" href="https://feilalala.github.io/feed.xml" title="Zrlong的笔记" />
+    <link rel="stylesheet" href="/static/app.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>404 | Zrlong的笔记</title>
+<meta property="og:title" content="404" />
+<meta property="og:locale" content="zh" />
+<link rel="canonical" href="https://feilalala.github.io/404.html" />
+<meta property="og:url" content="https://feilalala.github.io/404.html" />
+<meta property="og:site_name" content="Zrlong的笔记" />
+<meta property="og:image" content="https://feilalala.github.io/static/images/og.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@chibicode" />
+<meta name="twitter:creator" content="@chibicode" />
+<script type="application/ld+json">
+{"name":null,"description":null,"author":null,"@type":"WebPage","url":"https://feilalala.github.io/404.html","image":"https://feilalala.github.io/static/images/og.jpg","publisher":null,"headline":"404","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <main class="measure-wide center ph3 pt5 pb6">
+      
+      <h1 class="mt0 mb4">
+      
+        <a
+          href="/"
+          class="no-underline bg-amber-400">
+          Zrlong的笔记
+        </a>
+      
+      </h1>
+      
+      
+        <section class="pv2">
+          <p>Page not found.</p>
+
+        </section>
+      
+      
+        <section class="pv2">
+          <ul class="list pl0">
+          
+            
+              
+              <li class="mt0 mb4 ">
+                <span class="silver db mb1">Nov 1, 2017</span>
+                <h3 class="ma0">
+                  <a class=" no-underline" href="/posts/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95/">中文测试</a>
+                </h3>
+              </li>
+            
+              
+              <li class="mt0 mb4 ">
+                <span class="silver db mb1">Oct 12, 2017</span>
+                <h3 class="ma0">
+                  <a class=" no-underline" href="/posts/html-test-case/">HTML Test Case</a>
+                </h3>
+              </li>
+            
+          
+          </ul>
+        </section>
+      
+    </main>
+    <script>
+      var moreLink = document.querySelector('.js-more')
+      if (moreLink) {
+        document.querySelector('.js-more').addEventListener('click', function (e) {
+          e.preventDefault()
+          e.target.classList.add('dn')
+          e.target.classList.remove('dib')
+          document.querySelectorAll('.js-hidden').forEach(function (elt) {
+            elt.classList.remove('dn')
+          })
+        })
+      }
+    </script>
+    <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
+  </body>
+</html>
